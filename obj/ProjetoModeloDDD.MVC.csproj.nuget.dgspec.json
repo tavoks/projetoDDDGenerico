@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.MVC\\ProjetoModeloDDD.MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Application\\ProjetoModeloDDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Application\\ProjetoModeloDDD.Application.csproj",
+        "projectName": "ProjetoModeloDDD.Application",
+        "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Application\\ProjetoModeloDDD.Application.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj",
+        "projectName": "ProjetoModeloDDD.Domain",
+        "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Infra.Data\\ProjetoModeloDDD.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Infra.Data\\ProjetoModeloDDD.Infra.Data.csproj",
+        "projectName": "ProjetoModeloDDD.Infra.Data",
+        "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Infra.Data\\ProjetoModeloDDD.Infra.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.MVC\\ProjetoModeloDDD.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.MVC\\ProjetoModeloDDD.MVC.csproj",
+        "projectName": "ProjetoModeloDDD.MVC",
+        "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.MVC\\ProjetoModeloDDD.MVC.csproj",
+        "packagesPath": "C:\\Users\\tavok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tavok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Application\\ProjetoModeloDDD.Application.csproj": {
+                "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Application\\ProjetoModeloDDD.Application.csproj"
+              },
+              "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj"
+              },
+              "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Infra.Data\\ProjetoModeloDDD.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\tavok\\source\\repos\\ProjetoDDD\\ProjetoModeloDDD.Infra.Data\\ProjetoModeloDDD.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
